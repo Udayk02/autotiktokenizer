@@ -80,10 +80,16 @@ class AutoTikTokenizer:
         """
         Downloads the necessary files from the HuggingFace Hub for the tokenizer.
         Args:
-            repo_name (str): The name of the repository to download the files from.
+            repo_name: Repository name on HuggingFace Hub
+            token: HuggingFace authentication token
+            local_dir: Local directory to store downloaded files
+            force_download: Whether to force re-download if files exist
 
         Returns:
-            path (str): The path to the downloaded files.
+            str: Path to downloaded files
+
+        Raises:
+            AssertionError: If required files are missing
         """
         # Download all the necessary files from HF Hub
         files_needed = [
@@ -292,6 +298,20 @@ class AutoTikTokenizer:
         local_dir: str = None,
         force_download: bool = False,
     ) -> tiktoken.Encoding:
+        """Creates a TikToken encoding from a pretrained HuggingFace tokenizer.
+
+        Args:
+            tokenizer_name_or_path: HuggingFace model name or local path
+            token: HuggingFace authentication token
+            local_dir: Local directory to store downloaded files
+            force_download: Whether to force re-download if files exist
+
+        Returns:
+            tiktoken.Encoding: TikToken-compatible encoding
+
+        Raises:
+            Exception: If tokenizer files cannot be loaded
+        """
         # init instance
         instance = cls()
 
