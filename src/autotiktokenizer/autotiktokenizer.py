@@ -103,7 +103,7 @@ class AutoTikTokenizer:
             repo_id=repo_name,
             token=token,
             local_dir=local_dir,
-            force_download=False,
+            force_download=force_download,
             allow_patterns=files_needed,
         )
         files_downloaded = os.listdir(path)
