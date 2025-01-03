@@ -7,10 +7,10 @@
 [![PyPI version](https://img.shields.io/pypi/v/autotiktokenizer.svg)](https://pypi.org/project/autotiktokenizer/)
 [![Downloads](https://static.pepy.tech/badge/autotiktokenizer)](https://pepy.tech/project/autotiktokenizer)
 ![Package size](https://img.shields.io/badge/size-9.7MB-blue)
-[![License](https://img.shields.io/github/license/bhavnicksm/autotiktokenizer)](https://github.com/bhavnicksm/autotiktokenizer/blob/main/LICENSE)
-[![Documentation](https://img.shields.io/badge/docs-available-brightgreen.svg)](https://github.com/bhavnicksm/autotiktokenizer#readme)
-[![Last Commit](https://img.shields.io/github/last-commit/bhavnicksm/autotiktokenizer)](https://github.com/bhavnicksm/autotiktokenizer/commits/main)
-[![GitHub Stars](https://img.shields.io/github/stars/bhavnicksm/autotiktokenizer?style=social)](https://github.com/bhavnicksm/autotiktokenizer/stargazers)
+[![License](https://img.shields.io/github/license/bhavnicksm/autotiktokenizer)](https://github.com/chonkie-ai/autotiktokenizer/blob/main/LICENSE)
+[![Documentation](https://img.shields.io/badge/docs-available-brightgreen.svg)](https://github.com/chonkie-ai/autotiktokenizer#readme)
+[![Last Commit](https://img.shields.io/github/last-commit/bhavnicksm/autotiktokenizer)](https://github.com/chonkie-ai/autotiktokenizer/commits/main)
+[![GitHub Stars](https://img.shields.io/github/stars/bhavnicksm/autotiktokenizer?style=social)](https://github.com/chonkie-ai/autotiktokenizer/stargazers)
 
 🚀 Accelerate your HuggingFace tokenizers by converting them to TikToken format with AutoTikTokenizer - get TikToken's speed while keeping HuggingFace's flexibility.
 
@@ -43,7 +43,7 @@ pip install autotiktokenizer
 You can also install it from _source_, by the following command:
 
 ```bash
-pip install git+https://github.com/bhavnicksm/autotiktokenizer
+pip install git+https://github.com/chonkie-ai/autotiktokenizer
 ```
 
 # Examples
