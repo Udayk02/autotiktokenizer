@@ -183,7 +183,7 @@ class AutoTikTokenizer:
             vocab (dict): The vocabulary of the tokenizer.
         """
         try:
-            vocab = tokenizer["model"]["vocab"]
+            vocab = dict(tokenizer["model"]["vocab"])
         except KeyError:
             raise Warning(
                 "No vocab found inside tokenizer.json"
